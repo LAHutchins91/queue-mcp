@@ -3,5 +3,17 @@
   "name": "io.github.LAHutchins91/queue",
   "title": "Queue",
   "description": "Approved support response times by plan for AI assistants, over MCP.",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://queue-mcp.vercel.app/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/LAHutchins91/queue-mcp/main/logo.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ]
 }
